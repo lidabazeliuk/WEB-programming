@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" paragraph="IE=edge">
+    <meta name="viewport" paragraph="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Лабрадор-ретривер</title>
+</head>
+
+<form class="zvorotniy-zviazok" autocomplete="off"  method='post'>
+    <p><b>Зворотній зв'язок</b></p>
+    <div class="form-zviazok"> 
+      <div>
+        <label>Ім'я </label>
+        <input type='text' name='username' required></div>
+      <div>
+        <label>Номер телефону </label>
+        <input type='text' name='usernumber' required></div>
+      
+      <div>
+        <label> Категорія </label>
+        <select name="category">
+            <option value="1">Підтримка</option>
+            <option value="2">Побажання</option>
+            <option value="3">Скарга</option>
+            <option value="4">Інше</option>
+          </select>
+        </div>
+        <div>
+            <label>Тема</label>
+            <input type='text' name='theme'>
+          </div>
+          <div>
+            <label>Текст повідомлення</label>
+            <input type='text' name='question'>
+          </div>
+          <div>
+            <label>Прикріпити файл</label>
+            <input type='text' name='file'>
+          </div>
+          <div>
+            <label>Спосіб зв'язку</label>
+            <select name="zviazok">
+                <option value="1">Telegram</option>
+                <option value="2">Viber</option>
+                <option value="3">Messenger</option>
+                <option value="4">SMS</option>
+              </select>
+          </div> 
+           <input class="bot-send-mail" type='submit' value='Відправити заявку'>
+        </div>
+</form>
