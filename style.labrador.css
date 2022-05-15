@@ -1,0 +1,22 @@
+head{
+    background-color: antiquewhite;
+}
+
+div {
+    background-color:beige;
+    padding: 4px;
+    border: solid gray;
+} 
+body{
+    background-color: aliceblue;
+}
+table {
+    background-color: honeydew;
+}
+h1{
+max-width: 1120px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
