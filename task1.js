@@ -1,29 +1,10 @@
-const marks1 = [1, 5, 1, 5];
-const marks2 = [2, 3, 5, 2];
-const marks3 = [4, 3, 5, 4];
-const marks4 = [4, 5, 5, 4];
-const marks5 = [5, 5, 5, 5];
-
-
-function getMarksStatistic(marks) {
-    let category = '';
-    const averageMarks = marks.reduce((a, b) => a + b, 0) / marks.length;
-
-    const lowestMark = Math.min(...marks);
-
-    if (lowestMark === 1 || lowestMark === 2) {
-        category = 'Двійочник';
-    }
-    if (lowestMark === 3) {
-        category = 'Трійочник';
-    }
-    if (lowestMark === 4) {
-        category = 'Хорошист';
-    }
-    if (lowestMark === 5) {
-        category = 'Відмінник';
-    }
-
-    console.log('Середній бал студента', averageMarks);
-    console.log('Cтудент -', category);
+let num1 = prompt("input num", "")
+let num2 = prompt("input num", "")
+let a = num2 > num1
+while (true)
+{
+    if (!((num2 > num1 & a) || (num2 < num1 & !a)))
+        break
+    num1 = num2
+    num2 = prompt("input num", "")
 }
